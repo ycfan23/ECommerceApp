@@ -1,9 +1,9 @@
 import React from 'react';
-import { AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography } from '@material-ui/core';
+import { AppBar, Toolbar, IconButton, Badge, Typography } from '@material-ui/core';
 import { ShoppingCart } from '@material-ui/icons';
 import { Link } from 'react-router-dom';
 
-import logo from '../../assets/commerce.jpeg';
+import logo from '../../assets/outdoorlogo.jpeg';
 import useStyles from './styles';
 
 const NavBar = ({ totalItems }) => {
@@ -15,8 +15,8 @@ const NavBar = ({ totalItems }) => {
       <AppBar position='fixed' className={classes.appBar} color='inherit'>
         <Toolbar>
           <Typography component={Link} to='/' variant='h6' className={classes.title} color='inherit'>
-            <img src={logo}  alt='Commerce.js' height='25px' className={classes.image} />
-            Shop Center
+            <img src={logo}  alt='Commerce.js' height='100px' className={classes.image} />
+            Outdoor Shopping Center
           </Typography>
           <div className={classes.grow} />
           <div className={classes.button}>
