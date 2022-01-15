@@ -1,12 +1,10 @@
-## Outdoor Shop Center
-___
+# Outdoor Shop Center
 
 This is an e-commerce web application built for outdoor enthusiasts who are looking for gears for the next adventure.
 
 <img src="./src/assets/Ecommerce.gif"> <br>
 
-## Built With
-___
+# Built With
 
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <br>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" /> <br>
